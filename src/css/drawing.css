@@ -1,0 +1,33 @@
+:root {
+  --skin: #f6c09c;
+  --background: #ed4042;
+  --red: #ed2860;
+  --dark-red: #680524;
+  --black: #00243a;
+  --white: #fff;
+  --skin-small-ear: #ba6936;
+  --skin-neck: #d19471;
+}
+
+body {
+  margin: 0;
+  background: coral;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--background);
+  height: 600px;
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 18px red;
+}
