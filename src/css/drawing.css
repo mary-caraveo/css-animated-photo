@@ -100,3 +100,43 @@ body {
   top: 6px;
   left: 12px;
 }
+
+.ear_left {
+  background: var(--skin);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: -20px;
+}
+
+.small_ear_left {
+  background: var(--skin-small-ear);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: 6px;
+}
+
+.ear_right {
+  background: var(--skin);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 90px;
+}
+
+.small_ear_right {
+  background: var(--skin-small-ear);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
