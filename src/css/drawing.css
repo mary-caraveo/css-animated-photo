@@ -149,3 +149,13 @@ body {
   position: absolute;
   top: 80px;
 }
+
+.nose {
+  background: var(--skin);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: 35px;
+}
