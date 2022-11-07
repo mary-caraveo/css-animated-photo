@@ -159,3 +159,30 @@ body {
   top: -5px;
   left: 35px;
 }
+
+.mouth {
+  background: var(--dark-red);
+  clip-path: circle(50% at 50% 0%);
+  width: 60px;
+  height: 25px;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+
+.tooth {
+  background: var(--white);
+  width: 45px;
+  height: 10px;
+  position: absolute;
+  border-radius: 0 2px 5px 0;
+}
+
+.tongue {
+  background: var(--red);
+  width: 30px;
+  height: 10px;
+  border-radius: 0 30px 2px 130px;
+  position: absolute;
+  top: 14px;
+}
