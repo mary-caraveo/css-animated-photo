@@ -186,3 +186,13 @@ body {
   position: absolute;
   top: 14px;
 }
+
+.neck {
+  clip-path: circle(50% at 50% 0%);
+  background: var(--skin-neck);
+  width: 70px;
+  height: 260px;
+  position: absolute;
+  top: 120px;
+  left: 15px;
+}
